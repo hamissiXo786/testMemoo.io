@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.background {
+    height: 100vh;
+    background-image: url(images/pexels-pavel-danilyuk-8294622.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 36px;
+    display: flex;
+    justify-content: flex-end; /* flex-start/center/flex-end */
+    
+}
+
+.card {
+    background-color: navy;
+    opacity: 0.7;
+    margin: 25px;
+    border: 2px solid black;
+    text-align: center;
+    width: 200px;
+
+}
